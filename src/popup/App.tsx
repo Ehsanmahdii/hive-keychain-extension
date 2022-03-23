@@ -28,6 +28,7 @@ import MkUtils from 'src/utils/mk.utils';
 import PopupUtils from 'src/utils/popup.utils';
 import RpcUtils from 'src/utils/rpc.utils';
 import './App.scss';
+import './material-icons.scss';
 import { AddAccountRouterComponent } from './pages/add-account/add-account-router/add-account-router.component';
 import { AppRouterComponent } from './pages/app-container/app-router.component';
 import { MessageContainerComponent } from './pages/message-container/message-container.component';

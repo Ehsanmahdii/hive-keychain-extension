@@ -19,7 +19,7 @@ interface IconProps {
 const Icon = (props: IconProps) => {
   return (
     <>
-      <span
+      <i
         data-for={`icon-tooltip`}
         data-tip={
           props.tooltipMessage
@@ -32,7 +32,7 @@ const Icon = (props: IconProps) => {
         } ${props.onClick ? 'clickable' : ''}`}
         onClick={props.onClick}>
         {props.name}
-      </span>
+      </i>
       <ReactTooltip
         id="icon-tooltip"
         place="bottom"
